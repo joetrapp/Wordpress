@@ -1,0 +1,19 @@
+How to create a development website alongside your production website in cPanel
+
+-Add subdomain to website. I like to use staging.URL.com
+
+-Create directory where you would like to have the new website hosted
+
+-Create new FTP user
+
+-OPT: Create redirect for staging.whatever -> public_html/DIR
+
+-In Installatron, clone your Wordpress program
+
+-Change settings as per usage: Create new database if you are creating a fresh install, Copy database if you would like to work on a mirrored site
+
+-Disable site indexing in WP for Search Engines
+
+-Disable non-logged in user access?
+
+-Profit. Access website using staging.URL.com/wp-admin.
